@@ -1,19 +1,18 @@
 <template>
   <SidePanel />
   <div class="home">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <ToDo />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import ToDo from "./components/ToDo";
 import SidePanel from "./components/SidePanel.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    ToDo,
     SidePanel,
   },
 };
@@ -31,6 +30,7 @@ body {
   text-align: center;
   color: #2c3e50;
   display: flex;
+  background-color: #f4f4f4;
 
   .home {
     flex: 3;
