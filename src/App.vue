@@ -3,6 +3,15 @@
   <div class="home">
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Button label="Submit" icon="pi pi-check" iconPos="right" />
+    <Card>
+      <template v-slot:title>This is the header</template>
+      <template v-slot:content
+        >This is the content of the card. Theres a lot to say here. I hope I
+        dont forget anything!</template
+      >
+      <template v-slot:footer>This is the end.</template>
+    </Card>
   </div>
 </template>
 

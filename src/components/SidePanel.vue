@@ -3,6 +3,11 @@
     <img src="https://picsum.photos/150" />
     <h1>Welcome</h1>
     <h2>View ToDos Below:</h2>
+    <Card>
+      <header>This is a card</header>
+    </Card>
+    <Button label="Submit" />
+    <Menu> </Menu>
   </div>
 </template>
 
