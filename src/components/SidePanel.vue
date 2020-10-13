@@ -16,7 +16,7 @@ export default {
 .side-panel {
   height: 100vh;
   width: 100px;
-  background-color: lightblue;
+  background-color: lightgray;
   flex: 1;
   display: flex;
   flex-direction: column;
